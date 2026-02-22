@@ -65,8 +65,8 @@ Environment variables are stored in a `.env` file.
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone <your-repo-url>
-cd <repo-folder>
+git clone <https://github.com/adx19/lemnisca-take-home.git>
+cd <lemnisca-take-home>
 ```
 
 ### 2️⃣ Navigate to backend
