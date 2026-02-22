@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClearPath Assistant</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>ClearPath Support Assistant</h1>
+
+    <div class="chat-box" id="chatBox">
+        <div class="message bot">Ask a question to get started.</div>
+    </div>
+
+    <div class="input-area">
+        <input type="text" id="queryInput" placeholder="Type your question..." />
+        <button onclick="sendQuery()">Send</button>
+    </div>
+
+    <div class="debug-panel">
+        <h3>Debug Info</h3>
+        <p><strong>Status:</strong> <span id="evaluator-text">-</span></p>
+        <p><strong>Model:</strong> <span id="modelUsed">-</span></p>
+        <p><strong>Confidence:</strong> <span id="confidence">-</span></p>
+        <p><strong>Latency:</strong> <span id="latency">-</span> ms</p>
+    </div>
+
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
